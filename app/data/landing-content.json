@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "name": "Dixanta",
+    "intro": "I architect and build scalable web experiences using",
+    "techStack": ["React", "Node.js", "MongoDB", "Express"],
+    "tagline": "to solve complex problems with elegant, maintainable code."
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "20+",
+      "label": "Projects Delivered"
+    },
+    {
+      "value": "10+",
+      "label": "Certifications"
+    }
+  ],
+  "mainSection": {
+    "title": "The Ethics of Code",
+    "intro": "In a world drowning in technical debt and rushed implementations, I believe in the philosophy that code is communication—not just with machines, but with the developers who will inherit your work.",
+    "sections": [
+      {
+        "heading": "The Principle of Intentional Friction",
+        "paragraphs": [
+          "Every line of code I write begins with a question: 'Will this make sense to someone six months from now?' This isn't about perfectionism—it's about empathy in engineering. When you're building systems that process financial transactions, manage user data, or control business logic, clarity isn't optional—it's an ethical imperative.",
+          "The MERN stack isn't just a technology choice; it's a commitment to JavaScript's ubiquity and the power of a unified language across the entire application stack. But with that power comes responsibility. React's component model teaches us about separation of concerns. Node.js's event-driven architecture forces us to think about asynchronous flow and resource management. MongoDB's flexible schema demands we consider data integrity at the application layer."
+        ]
+      },
+      {
+        "heading": "The Architecture of Minimalism",
+        "paragraphs": [
+          "As a practicing minimalist, I bring the same principles to my code that I bring to my life: remove everything that doesn't serve a purpose. This manifests in my work through component hierarchies that never exceed three levels of nesting, API endpoints that do one thing exceptionally well, database schemas that prioritize query performance over clever normalization, and state management that leverages React's built-in capabilities before reaching for external libraries."
+        ]
+      },
+      {
+        "heading": "The Future of Full-Stack Development",
+        "paragraphs": [
+          "We're at an inflection point in web development. The lines between frontend and backend continue to blur with technologies like Next.js and server components. GraphQL challenges our assumptions about REST. Edge computing is rewriting the rules of deployment. But amidst all this change, the fundamentals remain constant: understand your data flow, optimize for the user experience, and write code that other humans can read.",
+          "The rise of TypeScript has fundamentally changed how we think about JavaScript development. Type safety isn't about preventing bugs—though it does that brilliantly—it's about documenting intent. When I define an interface, I'm not just describing a data structure; I'm communicating expectations across my entire application. This is the difference between code that works and code that's maintainable."
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's Build Something Remarkable",
+    "description": "Whether you're looking to build a new product from scratch or scale an existing system, I'm here to help.",
+    "buttons": [
+      {
+        "text": "Start a Conversation",
+        "href": "mailto:dixanta@example.com",
+        "primary": true
+      },
+      {
+        "text": "View My Work",
+        "href": "/projects",
+        "primary": false
+      }
+    ]
+  },
+  "techExpertise": {
+    "title": "Technical Expertise",
+    "categories": [
+      {
+        "name": "Frontend",
+        "skills": [
+          "React / Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Redux / Zustand",
+          "Framer Motion"
+        ]
+      },
+      {
+        "name": "Backend",
+        "skills": [
+          "Node.js / Express",
+          "RESTful APIs",
+          "GraphQL",
+          "WebSockets",
+          "Microservices"
+        ]
+      },
+      {
+        "name": "Database",
+        "skills": [
+          "MongoDB",
+          "PostgreSQL",
+          "Redis",
+          "Mongoose ODM",
+          "Prisma ORM"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "skills": [
+          "Docker",
+          "AWS / Vercel",
+          "CI/CD Pipelines",
+          "Nginx",
+          "Git / GitHub Actions"
+        ]
+      }
+    ]
+  }
+}

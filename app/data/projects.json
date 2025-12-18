@@ -1,0 +1,68 @@
+[
+  {
+    "id": "calmly",
+    "name": "Calmly",
+    "what": "AWS Deployed Next.js Mental Health Platform",
+    "description": "Calmly is a comprehensive web application built with Next.js and deployed on AWS, featuring a secure VPC with public/private subnets, EC2 instances for app and database servers, MySQL database, and S3 bucket for educational materials storage. The platform evolved to include serverless components like API Gateway, Lambda functions, DynamoDB, and SNS notifications for scalable mental health support.",
+    "goal": "Create a centralized telepsychiatry platform addressing Malaysia's mental health crisis (1M+ affected per NHMS 2023), enabling patients to book therapy sessions online, access educational resources, and receive real-time notifications while using AWS for scalable, secure, cost-efficient cloud infrastructure that serves rural and underserved communities.",
+    "technologies": [
+      "Next.js",
+      "AWS EC2",
+      "AWS VPC",
+      "MySQL",
+      "AWS S3",
+      "AWS Lambda",
+      "API Gateway",
+      "DynamoDB",
+      "AWS SNS",
+      "AWS IAM"
+    ],
+    "challenges": [
+      "Configuring VPC networking with public/private subnets, NAT Gateway, and Internet Gateway for secure database isolation.",
+      "Setting up EC2 security groups to allow controlled access between app server (ports 80/3000/22) and database (port 3306).",
+      "IAM permission issues across team members requiring precise role policies for Lambda, S3, and DynamoDB access.",
+      "CORS configuration for API Gateway to enable frontend-backend communication.",
+      "Transitioning from MySQL (Task 1) to DynamoDB serverless database while maintaining data integrity.",
+      "Lambda cold starts and monitoring performance with X-Ray/CloudWatch."
+    ],
+    "learnings": [
+      "Mastered AWS networking fundamentals (VPC, subnets, route tables, security groups) for production-grade deployments.",
+      "Implemented hybrid serverless architecture transitioning from EC2/MySQL to Lambda/API Gateway/DynamoDB/SNS.",
+      "Gained expertise in AWS IAM role management and least-privilege security policies.",
+      "Learned comprehensive monitoring with CloudWatch metrics, X-Ray tracing, and Lambda log analysis.",
+      "Understood cost optimization through serverless pay-per-use model vs. always-on EC2 instances.",
+      "Developed full-stack deployment skills including Git cloning, Node.js setup, database migrations, and S3 file handling."
+    ],
+    "team": [
+      "Aakash Karki - VPC, Wireframes, Lambda, Testing",
+      "Alisha Basnet - S3, Requirements, API Gateway",
+      "Dixanta Nath Shrestha - EC2, Architecture, SNS, IAM",
+      "Sitasma Karki - Database Design, DynamoDB, ERD"
+    ],
+    "features": [
+      "Patient registration/login, appointment booking/rescheduling/cancellation",
+      "Therapist dashboard for appointment management and material creation",
+      "Admin panel for user/material management",
+      "Educational materials upload/download via S3",
+      "Real-time SNS email notifications for appointment changes",
+      "Secure multi-role authentication system"
+    ],
+    "thumbnail_url": "/projects/calmly-thumbnail.png",
+    "medias": [],
+    "live_url": "",
+    "github_url": "https://github.com/dixxanta08/calmly-ddac",
+    "deployed_on": "N/A",
+    "tags": [
+      "AWS",
+      "Next.js",
+      "Serverless",
+      "Mental Health",
+      "Telepsychiatry",
+      "VPC Networking",
+      "EC2 Deployment",
+      "DynamoDB",
+      "API Gateway",
+      "Cloud Architecture"
+    ]
+  }
+]

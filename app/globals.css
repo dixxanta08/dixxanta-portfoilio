@@ -1,26 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+  /* Base Styles */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Custom CSS Variables - Swiss Brutalist Aesthetic */
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --accent: #0a0a0a;
+  --muted: #666666;
+  --border: #e5e5e5;
+
+  /* Typography Scale */
+  --font-display: "Clash Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Code",
+    "Droid Sans Mono", monospace;
+
+  /* Spacing System */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Line Heights */
+  --line-height-tight: 1.1;
+  --line-height-normal: 1.5;
+  --line-height-prose: 1.7;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --accent: #ffffff;
+    --muted: #999999;
+    --border: #1a1a1a;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: var(--line-height-normal);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Typography System - Swiss Brutalist */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(3rem, 8vw, 8rem);
+  margin-bottom: var(--spacing-md);
+}
+
+h2 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: var(--spacing-sm);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: var(--spacing-sm);
+}
+
+p {
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  line-height: var(--line-height-prose);
+  margin-bottom: var(--spacing-md);
+  max-width: 65ch;
+}
+
+/* Pill Component - For Tech Terms */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  margin: 0 0.25rem;
+  background: var(--foreground);
+  color: var(--background);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Link Styles */
+a {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* Swiss Border System */
+.border-swiss {
+  border: 1px solid var(--border);
+}
+
+.border-swiss-bold {
+  border: 2px solid var(--foreground);
+}
+
+/* Brutalist Container System */
+.container-brutalist {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+  .container-brutalist {
+    padding: 0 1.5rem;
+  }
+}
+
+/* Grid System for Swiss Layout */
+.grid-swiss {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+/* Long-form Prose Styling */
+.prose {
+  font-size: 1.125rem;
+  line-height: var(--line-height-prose);
+  color: var(--foreground);
+}
+
+.prose strong {
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.prose em {
+  font-style: italic;
+  color: var(--muted);
+}
+
+/* Background Text for Cursor Following */
+.bg-text {
+  position: fixed;
+  font-size: clamp(8rem, 20vw, 20rem);
+  font-weight: 700;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 0;
+  user-select: none;
+  white-space: nowrap;
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Utility Classes */
+.text-muted {
+  color: var(--muted);
+}
+
+.uppercase-spaced {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Selection Style */
+::selection {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+::-moz-selection {
+  background: var(--foreground);
+  color: var(--background);
 }
