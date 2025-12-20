@@ -1,17 +1,17 @@
 {
   "hero": {
-    "name": "Dixanta",
+    "name": "Dixxanta",
     "intro": "I architect and build scalable web experiences using",
     "techStack": ["React", "Node.js", "MongoDB", "Express"],
     "tagline": "to solve complex problems with elegant, maintainable code."
   },
   "stats": [
     {
-      "value": "5+",
+      "value": "1+",
       "label": "Years Experience"
     },
     {
-      "value": "20+",
+      "value": "~10",
       "label": "Projects Delivered"
     },
     {
@@ -42,6 +42,12 @@
           "We're at an inflection point in web development. The lines between frontend and backend continue to blur with technologies like Next.js and server components. GraphQL challenges our assumptions about REST. Edge computing is rewriting the rules of deployment. But amidst all this change, the fundamentals remain constant: understand your data flow, optimize for the user experience, and write code that other humans can read.",
           "The rise of TypeScript has fundamentally changed how we think about JavaScript development. Type safety isn't about preventing bugs—though it does that brilliantly—it's about documenting intent. When I define an interface, I'm not just describing a data structure; I'm communicating expectations across my entire application. This is the difference between code that works and code that's maintainable."
         ]
+      },
+      {
+        "heading": "The Paradox of Go: Discipline in Chaos",
+        "paragraphs": [
+          "The first thing I noticed with Go is that it doesn’t let me hide mistakes. There’s no try-catch, no shortcuts to make the code look neat or simple—what some might call messy or unclean is actually intentional. Every error must be confronted, every edge case handled, and at first it feels unforgiving. But over time, I’ve realized that this apparent chaos is a teacher. Go instills discipline, patience, and humility, forcing me to think intentionally about every line I write and shaping a deeper respect for code that isn’t just clean, but purposeful."
+        ]
       }
     ]
   },
@@ -70,16 +76,15 @@
           "React / Next.js",
           "TypeScript",
           "Tailwind CSS",
-          "Redux / Zustand",
-          "Framer Motion"
+          "Zustand",
+          "Tanstack"
         ]
       },
       {
         "name": "Backend",
         "skills": [
-          "Node.js / Express",
+          "Node.js / Express / Nest.js",
           "RESTful APIs",
-          "GraphQL",
           "WebSockets",
           "Microservices"
         ]
@@ -95,14 +100,8 @@
         ]
       },
       {
-        "name": "DevOps",
-        "skills": [
-          "Docker",
-          "AWS / Vercel",
-          "CI/CD Pipelines",
-          "Nginx",
-          "Git / GitHub Actions"
-        ]
+        "name": "Misc.",
+        "skills": ["Docker", "AWS", "Git / GitHub Actions", "Postman"]
       }
     ]
   }

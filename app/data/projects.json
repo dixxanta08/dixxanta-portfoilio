@@ -1,5 +1,253 @@
 [
   {
+    "id": "mcgee-fos",
+    "name": "McGee Food Ordering System",
+    "what": "Java RMI-based Distributed Food Ordering Platform",
+    "description": "The McGee Food Ordering System (FOS) is a distributed application developed using Java RMI to digitize restaurant operations. It replaces a manual, paper-based ordering process with a centralized client-server architecture that handles order management, billing, and reporting. The system utilizes multi-threading for concurrency, serialization for data transmission, and a MySQL database for persistent storage.",
+    "goal": "To improve operational efficiency and customer satisfaction at McGee Restaurant by reducing order wait times, minimizing manual data inaccuracies, and providing a reliable digital platform for order placement and billing.",
+    "technologies": [
+      "Java",
+      "Java RMI",
+      "MySQL",
+      "Multi-threading",
+      "Serialization",
+      "OOP",
+      "TCP/IP"
+    ],
+    "challenges": [
+      "Addressing network latency and bandwidth limitations inherent in remote method invocations compared to local calls.",
+      "Ensuring data consistency and integrity across distributed JVMs.",
+      "Managing complex error handling for RemoteExceptions caused by network failures or server outages.",
+      "Securing data transmission against risks such as deserialization attacks.",
+      "Developing a thread-safe environment to handle multiple concurrent client requests without delays."
+    ],
+    "learnings": [
+      "Mastered distributed system architecture using Java RMI for remote object communication.",
+      "Implemented a thread-safe database connection using the Singleton design pattern.",
+      "Gained expertise in applying core OOP principles (Abstraction, Encapsulation, Inheritance, Polymorphism) to modularize a distributed application.",
+      "Learned to utilize serialization to transmit complex Java objects across a network.",
+      "Developed robust security measures including role-based authentication and password hashing.",
+      "Understood the importance of multi-threading for improving system responsiveness and resource utilization."
+    ],
+    "team": [
+      "Aakash Karki - Use Case Diagram, User Guide, Research, UI",
+      "Alisha Basnet - Introduction, Research, UI, User Guide",
+      "Dixanta Nath Shrestha - Research, OOP/Distributed Logic, UI",
+      "Sitasma Karki - Introduction, Research, UI, User Guide"
+    ],
+    "features": [
+      "Multi-role registration and login (Customer, Manager, Admin)",
+      "Digital menu viewing and real-time order placement for customers",
+      "Managerial dashboard for tracking pending/completed orders and managing food items",
+      "Automated billing and secure payment completion",
+      "Daily and overall sales report generation for administrators",
+      "Administrator activity logs and user management system",
+      "Digital receipt generation and printing functionality",
+      "Customer feedback system for completed orders"
+    ],
+    "thumbnail_url": "/projects/mcgee-fos-thumbnail.png",
+    "medias": [],
+    "live_url": "",
+    "github_url": "",
+    "deployed_on": "N/A",
+    "tags": [
+      "Java RMI",
+      "Distributed Systems",
+      "MySQL",
+      "Client-Server Architecture",
+      "Multi-threading",
+      "Food Ordering System",
+      "Software Engineering"
+    ]
+  },
+  {
+    "id": "esales-nepal",
+    "name": "eSales Nepal (Live)",
+    "what": "Multi-Vendor E-commerce Platform for Nepali SMEs",
+    "description": "eSales Nepal is a full-scale multi-vendor e-commerce platform designed to digitally empower Nepali small and medium enterprises (SMEs). The platform enables vendors to list and manage products, control inventory, and track business performance, while allowing customers to purchase authentic Nepali products from the comfort of their homes. Built with a scalable MERN-based architecture and deployed on a Linux VPS, the system integrates local payment and logistics solutions tailored for Nepal.",
+    "goal": "To accelerate digital transformation among Nepali SMEs by providing a reliable online marketplace that increases sales reach, simplifies inventory management, and supports local payment (Nepal Pay) and logistics (NCM) systems, benefiting customers, vendors, and administrators alike.",
+    "technologies": [
+      "React",
+      "TanStack Query",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication",
+      "Cloudinary",
+      "Nodemailer",
+      "Linux VPS"
+    ],
+    "challenges": [
+      "Designing a scalable admin and vendor panel architecture capable of handling master data management, role-based access control, and complex business rules without coupling frontend and backend logic.",
+      "Implementing a reliable inventory and stock adjustment system to maintain data consistency across vendors while preventing race conditions and unauthorized modifications.",
+      "Designing and automating a secure MongoDB backup and recovery strategy on a VPS environment to protect against data loss and ensure business continuity.",
+      "Structuring backend services to support future scalability while maintaining clean separation between authentication, business logic, and data access layers.",
+      "Ensuring secure JWT-based authentication and authorization flows across multiple user roles (customer, vendor, admin)."
+    ],
+    "learnings": [
+      "Gained strong hands-on experience in designing scalable e-commerce architecture tailored for multi-vendor business models.",
+      "Developed a deep understanding of authentication and authorization mechanisms using JWT in real-world production systems.",
+      "Learned to implement complex business logic for inventory control, master data management, and role-based workflows.",
+      "Improved skills in database schema design, indexing, and backup strategies for MongoDB in production environments.",
+      "Strengthened full-stack development expertise by coordinating frontend state management with backend APIs."
+    ],
+    "team": [
+      "Bechchha Tech - Product Ownership & Business Direction",
+      "Dixanta Nath Shrestha - Full-Stack Development, Architecture, Admin & Vendor Systems"
+    ],
+    "features": [
+      "Multi-role authentication system (Customer, Vendor, Admin)",
+      "Vendor dashboard for product management, stock adjustment, and inventory tracking",
+      "Admin panel for master data management and platform-level control",
+      "Product listing, categorization, and advanced search functionality",
+      "Cart and checkout system with Nepal Pay integration",
+      "Cloud-based image and asset storage using Cloudinary",
+      "Email notifications and system alerts using Nodemailer",
+      "Secure JWT-based session handling"
+    ],
+    "thumbnail_url": "/projects/esales-nepal-thumbnail.png",
+    "medias": [],
+    "live_url": "https://esalesnepal.com",
+    "github_url": "",
+    "deployed_on": "Linux VPS",
+    "tags": [
+      "E-commerce",
+      "Multi-Vendor Platform",
+      "Nepali SMEs",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "JWT Authentication",
+      "Business Logic",
+      "System Architecture"
+    ]
+  },
+  {
+    "id": "employee-attrition-eda",
+    "name": "Employee Attrition Analysis",
+    "what": "Exploratory Data Analysis on Employee Attrition Dataset",
+    "description": "This project performs an in-depth exploratory data analysis (EDA) on a longitudinal employee attrition dataset containing yearly employment records. The analysis focuses on understanding workforce structure, attrition patterns, demographic distributions, departmental trends, and resignation behavior over time. Multiple statistical summaries and visualizations were used to extract insights related to employee age, gender, department, job roles, business units, and termination reasons.",
+    "goal": "To analyze employee attrition trends and workforce characteristics using exploratory data analysis techniques, identify key factors contributing to employee resignations and layoffs, and provide data-driven insights that could support HR decision-making and workforce planning.",
+    "technologies": ["R", "ggplot2", "dplyr", "tidyr", "base R"],
+    "dataset": {
+      "source": "Employee Attrition Dataset (CSV)",
+      "records": 49653,
+      "employees": 6284,
+      "structure": "Yearly snapshots per employee"
+    },
+    "methodology": [
+      "Data cleaning and preprocessing (date conversion, feature creation)",
+      "Handling longitudinal records by extracting the latest employee status",
+      "Descriptive statistical analysis for numerical variables",
+      "Categorical data exploration using frequency analysis",
+      "Visualization using bar charts, box plots, histograms, line plots, and pie charts",
+      "Attrition rate calculation across gender, age groups, departments, and years",
+      "Trend analysis for resignations, layoffs, and retirement events",
+      "Basic statistical testing (ANOVA) to examine age-group significance in attrition"
+    ],
+    "key_insights": [
+      "The overall company attrition rate was approximately 23.63%.",
+      "Female employees showed a higher attrition rate (27.91%) compared to male employees (18.96%).",
+      "Customer Service department experienced the highest number of resignations, especially among younger employees.",
+      "A significant proportion of resignations occurred among employees under the age of 30.",
+      "Layoffs were concentrated only in the years 2014 and 2015.",
+      "Most involuntary exits were due to layoffs, while the majority of terminations overall were voluntary.",
+      "Stores with higher job-role diversity tended to have larger employee counts.",
+      "Head Office represented a very small proportion of the total workforce compared to store-level employees."
+    ],
+    "challenges": [
+      "Handling longitudinal employee records where each employee had multiple yearly entries.",
+      "Correctly identifying the latest employee status without losing historical context.",
+      "Managing high-cardinality categorical variables such as job titles and departments.",
+      "Designing clear visualizations for skewed distributions and large employee counts.",
+      "Ensuring accurate interpretation of attrition trends across multiple dimensions."
+    ],
+    "learnings": [
+      "Developed strong hands-on experience in exploratory data analysis using R.",
+      "Learned how to transform and analyze longitudinal HR datasets effectively.",
+      "Improved understanding of workforce analytics and attrition drivers.",
+      "Gained practical experience with data visualization best practices.",
+      "Applied statistical reasoning to test hypotheses related to employee behavior."
+    ],
+    "type": "Solo Academic Project",
+    "role": "Data Analyst (Individual)",
+    "institution": "University Coursework",
+    "submission_date": "2023-10-27",
+    "outputs": [
+      "Descriptive statistics",
+      "Attrition rate analysis",
+      "Department and job-level insights",
+      "Age-group and gender-based attrition trends",
+      "Multiple data visualizations"
+    ],
+    "tags": [
+      "Exploratory Data Analysis",
+      "HR Analytics",
+      "Employee Attrition",
+      "R Programming",
+      "Data Visualization",
+      "Statistics"
+    ],
+    "live_url": "/projects/employee-attrition-eda.html"
+  },
+  {
+    "id": "sql-library-database-design",
+    "name": "E-Library Management System",
+    "what": "SQL Database Design for University Library",
+    "description": "A fully normalized SQL-based E-Library Management System designed to manage books, users, loans, fines, reservations, and room bookings for university libraries. The project focuses on robust relational design, business rule enforcement at the database layer, and performance optimization using advanced T-SQL features including stored procedures, triggers, and indexing strategies.",
+    "goal": "To design and implement a production-ready database system for university libraries that enforces complex business rules at the database layer, ensures data integrity through normalization, and optimizes performance using indexing and partitioning strategies.",
+    "technologies": [
+      "Microsoft SQL Server",
+      "T-SQL",
+      "Stored Procedures",
+      "Triggers",
+      "CTEs",
+      "Indexing",
+      "Partitioning"
+    ],
+    "challenges": [
+      "Normalizing complex library data up to 3NF while maintaining query performance.",
+      "Implementing multi-role access control entirely at the database layer.",
+      "Designing triggers to enforce business rules without causing circular dependencies.",
+      "Optimizing complex queries involving multiple joins across normalized tables.",
+      "Balancing strict normalization with practical performance requirements."
+    ],
+    "learnings": [
+      "Advanced relational database modeling and normalization techniques.",
+      "Implementing business rules at the database layer using stored procedures and triggers.",
+      "Designing scalable and maintainable SQL architectures for enterprise applications.",
+      "Performance tuning using indexing, partitioning, and selective denormalization.",
+      "Secure database access control design and audit trail implementation."
+    ],
+    "team": ["Dixanta Nath Shrestha - Database Design, T-SQL Implementation"],
+    "features": [
+      "Normalized relational schema (up to 3NF) with EERD modeling",
+      "Role-based access control (Guest, Librarian, Admin)",
+      "Book cataloging with authors, genres, categories, and publishers",
+      "Loan, return, reservation, and fine management",
+      "Room booking and availability tracking",
+      "Automated alerts for returns, reservations, and fines",
+      "Stored procedures for user management, loans, and fine calculation",
+      "Triggers for status updates and historical record preservation"
+    ],
+    "thumbnail_url": "/projects/sql-library-thumbnail.png",
+    "medias": [],
+    "live_url": "",
+    "github_url": "",
+    "deployed_on": "N/A",
+    "tags": [
+      "SQL Server",
+      "Database Design",
+      "T-SQL",
+      "Stored Procedures",
+      "Triggers",
+      "Normalization",
+      "Library Management",
+      "Enterprise Architecture"
+    ]
+  },
+  {
     "id": "calmly",
     "name": "Calmly",
     "what": "AWS Deployed Next.js Mental Health Platform",

@@ -102,7 +102,7 @@ export default function Footer() {
         {/* Minimalist Credit */}
         <div className="mt-8 text-center">
           <p className="text-xs text-muted uppercase tracking-widest">
-            Designed & Built with Precision
+            WORK IN PROGRESS!
           </p>
         </div>
       </div>

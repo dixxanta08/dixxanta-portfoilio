@@ -151,7 +151,7 @@ a:hover {
 .container-brutalist {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: 0 var(--spacing-xs);
 }
 
 @media (max-width: 768px) {
