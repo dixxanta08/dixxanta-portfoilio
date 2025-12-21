@@ -48,7 +48,7 @@
     "thumbnail_url": "/projects/mcgee-fos-thumbnail.png",
     "medias": [],
     "live_url": "",
-    "github_url": "",
+    "github_url": "https://github.com/dixxanta08/rmi-java-cafeteria",
     "deployed_on": "N/A",
     "tags": [
       "Java RMI",
@@ -121,6 +121,63 @@
       "JWT Authentication",
       "Business Logic",
       "System Architecture"
+    ]
+  },
+  {
+    "id": "markdown-live-editor",
+    "name": "Markdown Live Editor",
+    "what": "Real-Time Markdown Editing & Preview Tool",
+    "description": "Markdown Live Editor is an open-source, React-based application for writing and previewing Markdown content in real time. It features syntax highlighting, document management using browser local storage, export options, and a clean, responsive interface designed for focused writing.",
+    "goal": "To provide developers and writers with an intuitive, distraction-free Markdown editor that supports real-time preview, efficient document management, and flexible export options without relying on backend services.",
+    "technologies": [
+      "React",
+      "Draft.js",
+      "ReactMarkdown",
+      "Tailwind CSS",
+      "highlight.js",
+      "jsPDF",
+      "html2canvas"
+    ],
+    "challenges": [
+      "Implementing real-time synchronized scrolling between editor and preview panes.",
+      "Handling Markdown edge cases such as nested lists and code blocks.",
+      "Managing document persistence and storage limits using browser Local Storage.",
+      "Ensuring responsive UI behavior across different screen sizes.",
+      "Exporting rendered Markdown content accurately to PDF format."
+    ],
+    "learnings": [
+      "Deepened understanding of controlled editors and rich text handling in React.",
+      "Learned efficient state management for multi-document workflows.",
+      "Improved UI/UX design skills for writing-focused applications.",
+      "Gained experience integrating third-party libraries for rendering, highlighting, and exporting content.",
+      "Understood client-side storage constraints and optimization techniques."
+    ],
+    "features": [
+      "Real-time Markdown preview while typing",
+      "Toolbar-based formatting (headings, bold, italic, lists)",
+      "Smart list and code block handling",
+      "Syntax highlighting with graceful fallback",
+      "Document creation, renaming, deletion, and auto-save using Local Storage",
+      "Markdown file import and export",
+      "PDF export of rendered content",
+      "Focus mode for distraction-free writing",
+      "Responsive layout with mobile-friendly behavior",
+      "Status bar showing cursor position and character count"
+    ],
+    "thumbnail_url": "/projects/markdown-live-editor.png",
+    "medias": [],
+    "live_url": "https://markdown-live-editor-ten.vercel.app/",
+    "github_url": "https://github.com/dixxanta08/Markdown-Live-Editor",
+    "deployed_on": "Vercel",
+    "tags": [
+      "React",
+      "Markdown",
+      "Live Preview",
+      "Frontend",
+      "Open Source",
+      "Editor Tool",
+      "Local Storage",
+      "UI/UX"
     ]
   },
   {

@@ -47,17 +47,17 @@ export default function Header() {
             aria-label="Toggle menu"
           >
             <span
-              className={`w-full h-0.5 bg-foreground transition-all ${
+              className={`w-full h-0.5 bg-white transition-all ${
                 isMenuOpen ? "rotate-45 translate-y-2" : ""
               }`}
             />
             <span
-              className={`w-full h-0.5 bg-foreground transition-all ${
+              className={`w-full h-0.5 bg-white transition-all ${
                 isMenuOpen ? "opacity-0" : ""
               }`}
             />
             <span
-              className={`w-full h-0.5 bg-foreground transition-all ${
+              className={`w-full h-0.5 bg-white transition-all ${
                 isMenuOpen ? "-rotate-45 -translate-y-2" : ""
               }`}
             />
