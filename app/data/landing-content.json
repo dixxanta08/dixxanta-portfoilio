@@ -1,4 +1,8 @@
 {
+  "cv": {
+    "downloadText": "Download CV",
+    "filePath": "/DixxantaCV2025.pdf"
+  },
   "hero": {
     "name": "Dixxanta",
     "intro": "I architect and build scalable web experiences using",

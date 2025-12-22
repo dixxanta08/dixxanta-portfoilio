@@ -6,6 +6,16 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container-brutalist min-h-screen flex flex-col justify-center py-20">
         <div className="max-w-5xl">
+          {/* CV Download Button */}
+          <div className="mb-12 p-2 border-4 border-foreground bg-background inline-block">
+            <a
+              href={landingContent.cv.filePath}
+              download
+              className="inline-block px-6 py-3 bg-foreground text-background font-bold text-lg hover:opacity-90 transition-opacity"
+            >
+              {landingContent.cv.downloadText}
+            </a>
+          </div>
           {/* Giant Name */}
           <h1 className="text-[clamp(3rem,12vw,10rem)] font-bold leading-[0.9] mb-8 tracking-tight">
             {landingContent.hero.name}
