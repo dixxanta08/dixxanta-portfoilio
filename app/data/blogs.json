@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "unreal-expectations-junior-mid-developers-ai-explained-rant",
+    "title": "The Unreal Expectations on Developers: An Explained Rant",
+    "subtitle": "A Ground-Level Scream Into The Void That Somehow Formed Coherent Sentences",
+    "description": "A raw, unfiltered take on the chaos in modern software development—from the junior developer lie to DSA theater, AI productivity mirages, and the coming accountability crisis.",
+    "keywords": [
+      "developer expectations",
+      "junior developer struggles",
+      "AI assisted development",
+      "ChatGPT coding",
+      "GitHub Copilot reality",
+      "DSA interviews criticism",
+      "tech industry rant",
+      "developer accountability",
+      "AI code quality",
+      "software development reality",
+      "coding with AI tools",
+      "developer career advice"
+    ],
+    "author": "Dixanta Shrestha",
+    "publishedDate": "2024-05-20",
+    "thumbnail": "/blogs/developer-rant-expectations.jpg",
+    "content": {
+      "introduction": "Listen. I just got out of another round of interviews. My brain feels like it's been through a blender set to \"LeetCode Hard.\" I'm not here to give you fluffy career advice or scare you about AI stealing jobs. I'm here to point at the giant, flashing neon sign of dysfunction in our industry and say: **\"ARE YOU ALL SEEING THIS???\"**\n\nThis is an *explained rant*. That means I'm going to be angry, but I'm going to tell you *exactly why* I'm angry. Buckle up.",
+      "sections": [
+        {
+          "heading": "PART 1: The \"Junior\" Developer Lie",
+          "content": "**The Rant:** The job title \"Junior Developer\" has become a sick joke. It's a corporate trick. They slap \"Junior\" on it so they can pay you less, but the job description reads like they're hiring a one-person engineering army who also happens to be a CS professor.\n\n**The Explanation (Why This Is Wrong):**\n\nLet's compare. A \"Junior\" role in 2015: \"Know some HTML/CSS/JS, be eager to learn, we'll mentor you.\"\n\nA \"Junior\" role in 2024: \"Must have 2+ years production experience with React, Node, and one cloud provider. Expertise in state management, performance optimization, and CI/CD. Strong grasp of DSA and system design principles. Will own features from conception to deployment.\"\n\nThat's not a junior. That's a **mid-level developer they want to pay a junior salary.** The expectation isn't just to contribute; it's to be *instantly productive* with zero ramp-up. Companies got addicted to hiring \"seniors\" during the boom, and now that money is tight, they want that same output for half the price. They've compressed 5 years of career progression into a 1-year \"junior\" role.\n\n**The Result:** New grads feel like imposters. Actually skilled self-taught people get filtered out by algorithm puzzles. Everyone is stressed. It's broken."
+        },
+        {
+          "heading": "PART 2: The DSA Theater (Or, \"Why Am I Balancing A Binary Tree For A To-Do App?\")",
+          "content": "**The Rant:** I am so tired of the algorithmic hazing. I get it. Google does it. FAANG does it. But why is every startup, every agency, every company building a WordPress site for a local bakery asking me to invert a binary tree on a whiteboard while they watch me sweat?\n\n**The Explanation (Why This Is Wrong):**\n\nThere are two reasons this persists, and only one of them is valid.\n\n**1. The Lazy Filter (The Bad Reason):** Hiring is hard. Evaluating real-world problem-solving takes time and nuance. Throwing a HackerRank link at 100 candidates is easy. It's a scalable, defensible (to HR) way to cut the pool in half. It's a *proxy for intelligence*, not a test of the job.\n\n**2. The \"Can You Think?\" Test (The Less Bad, But Still Misapplied Reason):** Some problems *do* require algorithmic thinking. But 99% of web dev is NOT that. Web dev is: \"Why is this API call failing?\" \"How do we structure this data so the frontend doesn't have to do gymnastics?\" \"Why is this CSS breaking on Safari?\" It's about **debugging, architecture, and trade-offs with context.** DSA tests logic in a vacuum. It's a different skill.\n\n**The Result:** We end up hiring people who are great at solving puzzles under pressure but might write unmaintainable, over-engineered code because they've been trained to optimize for algorithmic complexity, not human readability or business needs. We reject amazing product-minded developers who can't remember how a depth-first search works."
+        },
+        {
+          "heading": "PART 3: The AI Trap (The \"Productivity\" Mirage)",
+          "content": "**The Rant:** Oh, this one gets me. Management sees ChatGPT spit out a React component in 5 seconds and thinks, \"Great! Now our developers can be 10x faster! We can expect more!\" NO. YOU ABSOLUTELY CANNOT. You have confused **typing speed** with **thinking speed**.\n\n**The Explanation (Why This Is Wrong):**\n\nAI is a fantastic assistant. It's like having a super-fast, slightly confused intern who has read every programming book ever but understands none of them. It can generate code, but it *cannot*:\n\n- Understand YOUR specific business logic\n- Make sane architectural decisions for YOUR codebase\n- Anticipate the edge cases that will blow up at 2 AM\n- Know when to use a simple `for` loop vs. a fancy, unreadable `reduce`\n\nWhen you pressure a junior to \"ship fast using AI,\" you get:\n\n**Step 1:** Junior asks ChatGPT for a \"React form with validation.\"\n\n**Step 2:** ChatGPT gives them 200 lines of convoluted, tightly-coupled code.\n\n**Step 3:** Junior pastes it in. It \"works.\"\n\n**Step 4:** The code becomes a black box of suffering. Six months later, a senior has to spend two days refactoring this AI-generated monstrosity because adding a new field breaks everything.\n\nAI hasn't made development easier; it's made it *faster to create technical debt.* The expectations have risen because the *output* appears faster, but the *responsibility and understanding* haven't scaled at all. We're building skyscrapers on quicksand and calling it progress."
+        },
+        {
+          "heading": "PART 4: The Consequence-Free Bubble (And Why It Will Pop)",
+          "content": "**The Rant:** Here's the scary part: a whole generation of developers is learning in this environment where AI does the heavy lifting, and they haven't yet been punched in the face by the consequences of not understanding their own code.\n\n**The Explanation (The Inevitable Pop):**\n\nRight now, for many projects (especially in markets like Nepal where scale is often smaller), this works! The AI code runs. The site is up. The client is happy. It feels like you've hacked the system.\n\nBut the pop isn't a loud bang. It's a slow, silent suffocation. It happens when:\n\n- Traffic triples and the poorly-designed data flow buckles\n- You need to change one module and discover it's spider-webbed into 50 others because the AI didn't understand separation of concerns\n- You get paged at 3 AM because of a bug in code you didn't write and can't reason about\n- You're in a meeting and a senior asks, \"Why did you choose this approach?\" and you have no answer beyond \"ChatGPT suggested it\"\n\n**This is the coming accountability crisis.** Companies will stop caring if you used AI. They will start caring if you *understand what the AI did.* Your credibility—your ability to explain, debug, and own the system—will be the only thing that matters. The developers who are just \"AI prompters\" will hit a hard, invisible ceiling. The ones who use AI as a tool to augment their *own understanding* will survive and thrive."
+        },
+        {
+          "heading": "PART 5: So... What Now? (The Not-Fully-Depressing Part)",
+          "content": "Okay, rant over. What's the actionable takeaway from all this anger?\n\n**If you're a developer (especially junior/mid):**\n\n**1. Use AI, Don't Be Used By It.** Never just copy-paste. Treat every AI-generated block as a lecture from a sketchy professor. Question it. Break it down. Ask \"why\" for every line. Make sure you understand it *better* than the AI does.\n\n**2. Chase Understanding, Not Just Completion.** The goal is not to get the feature ticket to \"Done.\" The goal is to be able to whiteboard that feature and explain every decision to a critical colleague. Build that skill.\n\n**3. Embrace the Grind (A Little).** Sometimes, you have to struggle with a bug for hours without asking ChatGPT. That struggle is where real debugging skill is forged. It's painful but necessary.\n\n**4. Your Value is \"Why,\" Not \"What.\"** In the future, anyone can get AI to generate the *what* (the code). Your job will be to provide the *why* (the reasoning, the trade-offs, the design). Start practicing that now.\n\n**If you're a company/hiring manager (please listen):**\n\n**1. Stop Requiring Seniors and Calling Them Juniors.** Be honest about the role and pay for it. If you want a junior, be prepared to invest in mentorship and ramp-up time.\n\n**2. Interview for the Actual Job.** If the job is building React forms and talking to APIs, give the candidate a broken React form and an API and see how they fix it and reason about it. Test for *real skills*.\n\n**3. Understand What AI Actually Does.** It increases the **volume** of code, not the **quality** of thinking. Reward deep understanding and clean architecture, not just raw speed."
+        },
+        {
+          "heading": "Final Thoughts: This Isn't Doom—It's a Filter",
+          "content": "This isn't doom. It's a filter. The industry is going through painful, awkward puberty. The low barrier to *writing* code is being obliterated by AI. The high barrier to *designing, understanding, and maintaining* systems remains, and it's about to become the only thing that counts.\n\nThe chaos and unfair expectations we see now are the symptoms of that shift. It feels like madness because it *is* madness.\n\nBut on the other side of this filter are developers who aren't just prompt-jockeys. They're engineers. They're thinkers. They're the ones who will actually build the future that doesn't collapse under its own weight.\n\nYour mission, should you choose to accept it, is to make sure you're one of them. Now, if you'll excuse me, I need to go stare at a wall and recover from writing all this.\n\n**Rant over. Go build things. Properly.**"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "nepali-web-developers-extreme-expectations",
+    "title": "The Unreal Expectations Placed on Junior and Mid Developers in the Age of AI",
+    "subtitle": "A Ground-Level View from Interviews, the Nepal Tech Market, and the Coming Accountability Crisis",
+    "description": "A ground-level view from interviews, the Nepal tech market, and the coming accountability crisis in software development.",
+    "keywords": [
+      "Nepal web developers",
+      "junior web developer Nepal",
+      "mid-level developer Nepal",
+      "AI Copilot",
+      "DSA interviews Nepal",
+      "Nepal tech ecosystem",
+      "web development career Nepal",
+      "Copilot AI",
+      "Nepali software houses",
+      "portfolio websites Nepal",
+      "AI-assisted coding",
+      "developer accountability",
+      "software development credibility"
+    ],
+    "author": "Dixanta Shrestha",
+    "publishedDate": "2024-05-20",
+    "thumbnail": "/blogs/nepali-developers-expectations.jpg",
+    "content": {
+      "introduction": "I recently gave interviews for developer roles, and I walked away with a feeling that many developers share but few articulate clearly:\n\n**The expectations placed on junior and mid-level developers today are extreme, inconsistent, and quietly shaped by AI—often in ways that will backfire.**\n\nThis isn't a rant against interviewers. It's not an \"AI is bad\" post. And it's not a cope piece about failing interviews.\n\nThis is an attempt to accurately describe:\n\n- Why interviews now feel disconnected from real work\n- Why DSA keeps showing up even where it doesn't belong\n- How AI tools are silently reshaping developer competence\n- Why many developers haven't yet felt the consequences\n- And why credibility and responsibility—not speed—will define who survives long-term\n\nThis perspective comes from someone building real web interfaces, debugging animations, shipping features, and navigating the Nepali tech ecosystem—not from a Silicon Valley fantasy.",
+      "sections": [
+        {
+          "heading": "1. The Expectation Explosion: Junior ≠ Junior Anymore",
+          "content": "Let's start with the obvious.\n\nThe modern \"junior\" developer is expected to:\n\n- Be productive from day one\n- Understand frameworks deeply\n- Debug independently\n- Use Git properly\n- Write \"clean\" code\n- Understand performance\n- Know basic system design\n- Pass DSA rounds\n- Ship features fast\n\nThat's not junior work. That's **compressed experience**.\n\nA \"mid-level\" developer is now expected to:\n\n- Own features end-to-end\n- Make architectural decisions\n- Anticipate edge cases\n- Be production-ready\n- Mentor juniors\n- Still solve algorithmic problems under time pressure\n\nThe definition of levels hasn't changed—but the expectations have silently moved upward.\n\nWhy?\n\nBecause companies are hiring fewer people and expecting more output per hire."
+        },
+        {
+          "heading": "2. AI Didn't Create This Problem—It Accelerated It",
+          "content": "Before AI tools like Copilot and ChatGPT:\n\n- Hiring was already competitive\n- Companies already wanted \"rockstars\"\n- Juniors were already expected to \"learn fast\"\n\nAI didn't invent unrealistic expectations.\n\nAI **normalized them**.\n\nNow the logic goes like this:\n\n**\"If AI makes developers faster, then we should expect more.\"**\n\nBut this ignores a critical distinction:\n\n- **Speed of typing code ≠ speed of understanding systems**\n\nAI reduces friction, not responsibility.\n\nYet interviews now assume:\n\n- You've already shipped multiple production systems\n- You already know trade-offs\n- You already understand failure modes\n\nAnd if you don't?\n\n**\"You're not ready.\"**"
+        },
+        {
+          "heading": "3. The DSA Question: Why Is This Still Here?",
+          "content": "Let's address the elephant in the room.\n\nWhy are developers applying for:\n\n- Frontend roles\n- Full-stack CRUD applications\n- CMS-based platforms\n- E-commerce dashboards\n\n…still being asked to reverse linked lists, balance trees, or optimize sliding windows?\n\nThe honest answer: **DSA is a proxy.**\n\nIt's not about daily work. It's about:\n\n- Filtering candidates at scale\n- Measuring abstract problem-solving\n- Reducing hiring risk\n\nBut here's the disconnect:\n\nMost web development problems are not algorithmic. They are:\n\n- Data flow problems\n- State management problems\n- Architecture problems\n- Integration problems\n- Performance under real constraints\n- UX edge cases\n- Maintenance decisions\n\nDSA tests *how fast you can think in isolation*. Real development tests *how well you think with context*.\n\nThese are not the same skill."
+        },
+        {
+          "heading": "4. The Nepal Tech Reality: Where AI \"Works\" (For Now)",
+          "content": "This is where the conversation becomes uncomfortable—but necessary.\n\nIn Nepal, many mid-sized tech companies primarily build:\n\n- Portfolio websites\n- Single-vendor e-commerce platforms\n- Landing pages\n- CMS-driven applications\n- Small internal dashboards\n\nThese systems typically have:\n\n- Low traffic\n- Minimal concurrency\n- Simple data models\n- Short lifespans\n- Few scalability requirements\n\nIn this environment:\n\n- AI-generated code works\n- Copilot accelerates development\n- ChatGPT fills gaps\n- Technical debt stays hidden\n\nAnd because nothing breaks dramatically:\n\n- Developers gain confidence\n- Teams move faster\n- Management sees results\n\nThis creates an illusion:\n\n**\"We're productive, so our practices must be sound.\"**\n\nBut this is survivorship bias."
+        },
+        {
+          "heading": "5. Where AI-Written Code Actually Breaks",
+          "content": "AI-assisted development doesn't fail immediately. It fails **later**, when systems are stressed.\n\nThe breaking points usually appear at:\n\n- Scale\n- Complexity\n- Longevity\n- Accountability\n\nCommon failure modes include:\n\n- Tight coupling across modules\n- Poor data modeling decisions\n- Inconsistent abstractions\n- Unclear ownership boundaries\n- Hard-to-debug state issues\n- Performance bottlenecks no one anticipated\n\nAI can generate patterns—but it doesn't understand *why* a pattern exists or *when* it should be avoided.\n\nAnd if the developer doesn't understand either? That's when systems collapse."
+        },
+        {
+          "heading": "6. The Missing Phase: Consequences",
+          "content": "Here's the key observation:\n\nMost developers using AI heavily have **not yet experienced consequences**.\n\nThey haven't:\n\n- Owned a system through failure\n- Been responsible for downtime\n- Had to explain a bug to non-technical stakeholders\n- Been accountable for data loss\n- Had their design decisions audited\n\nSo the feedback loop is broken.\n\nWithout consequences:\n\n- Bad practices survive\n- Shallow understanding feels sufficient\n- Speed is rewarded over correctness\n\nThis is not sustainable."
+        },
+        {
+          "heading": "7. Why the \"AI Bubble\" Won't Burst—It Will Sort",
+          "content": "People talk about an \"AI bubble bursting.\"\n\nThat's probably the wrong metaphor.\n\nWhat's more likely is:\n\n- Silent filtering\n- Reputation-based hiring\n- Higher scrutiny\n- Fewer second chances\n\nAI won't disappear. But expectations will shift from:\n\n**\"Can you ship fast?\"**\n\nto:\n\n**\"Do you understand what you shipped?\"**\n\nThe developers who relied entirely on AI without understanding will stall—not collapse overnight, but slowly lose trust."
+        },
+        {
+          "heading": "8. Credibility Will Matter More Than Ever",
+          "content": "In the future, \"I used AI\" will not be an excuse.\n\nYou will be asked:\n\n- Why did you choose this architecture?\n- What happens when traffic spikes?\n- Where are the bottlenecks?\n- What breaks first?\n- How would you refactor this?\n- What trade-offs did you accept?\n\nAnd if you can't answer: AI won't answer for you.\n\nThis is where credibility comes in.\n\nCredibility is built by:\n\n- Understanding fundamentals\n- Debugging without panic\n- Reasoning about systems\n- Knowing limitations\n- Admitting uncertainty honestly\n\nSpeed without credibility is fragile."
+        },
+        {
+          "heading": "9. Why Interviews Feel Hypocritical (But Aren't Entirely Wrong)",
+          "content": "Here's the contradiction many developers feel:\n\n**\"Interviews expect skills most jobs don't require daily.\"**\n\nThat's true.\n\nBut interviews are not testing your current job. They are testing your **ceiling**.\n\nThe problem is:\n\n- They often test it poorly\n- Without context\n- Without relevance\n- Without acknowledging real experience\n\nThis creates resentment.\n\nBut rejecting fundamentals entirely is also dangerous.\n\nThe real issue isn't DSA itself—it's treating it as the *only* signal."
+        },
+        {
+          "heading": "10. The Developer Split That's Already Happening",
+          "content": "Quietly, developers are splitting into two groups:\n\n**Group A: AI-Dependent Shippers**\n\n- Extremely fast\n- Productive in the short term\n- Struggle with deep debugging\n- Avoid architectural decisions\n- Rely on trial-and-error\n\n**Group B: AI-Augmented Thinkers**\n\n- Use AI intentionally\n- Understand the output\n- Can reason without it\n- Slower initially\n- Much stronger long-term\n\nBoth groups exist today. Only one scales with responsibility."
+        },
+        {
+          "heading": "11. Why This Matters for Junior and Mid Developers Right Now",
+          "content": "If you're early in your career, this is the most dangerous phase.\n\nWhy?\n\n- You're forming habits\n- You're defining how you think\n- You're deciding whether to understand or copy\n\nAI can either:\n\n- Accelerate learning\n- Or permanently weaken it\n\nThe difference is intent.\n\nIf you ask:\n\n**\"Why does this work?\"**\n\nYou're safe.\n\nIf you ask:\n\n**\"Does this work?\"**\n\nYou're at risk."
+        },
+        {
+          "heading": "12. A Reality Check for Companies",
+          "content": "Companies also need to confront reality.\n\nYou cannot:\n\n- Expect senior-level thinking\n- Pay junior-level salaries\n- Hire fewer people\n- And blame developers when systems fail\n\nAI doesn't remove the cost of engineering. It postpones it.\n\nTechnical debt doesn't disappear. It compounds."
+        },
+        {
+          "heading": "13. The Coming Accountability Phase",
+          "content": "The next phase of software development will emphasize:\n\n- Ownership\n- Documentation\n- Design reasoning\n- Post-mortems\n- Explainability\n\nDevelopers will be judged not by:\n\n- How fast they shipped\n\nBut by:\n\n- How well systems survive stress\n\nThis will catch many people off guard."
+        },
+        {
+          "heading": "14. What Actually Future-Proofs a Web Developer",
+          "content": "Not frameworks. Not tools. Not hype.\n\nBut:\n\n- Fundamentals (JS, browser behavior, networking)\n- System thinking\n- Debugging skill\n- Communication\n- Responsibility\n\nAI should amplify these—not replace them."
+        },
+        {
+          "heading": "Conclusion: This Isn't Doom—It's a Filter",
+          "content": "The current state of hiring feels unfair because it is misaligned.\n\nBut it's also revealing.\n\nAI is not killing developers. It's exposing them.\n\nThose who understand their work will rise quietly. Those who don't will struggle loudly.\n\nAnd when responsibility finally arrives—because it always does—only credibility will matter."
+        }
+      ]
+    }
+  }
+]
